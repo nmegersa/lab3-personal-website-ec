@@ -1,0 +1,233 @@
+<!--
+ Generated with help of ChatGPT-4o
+ Prompt: "Give me a barebones HTML structure for my 
+ personal website without adding any additional sections"
+Response: code down below
+-->
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nathan Megersa - Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Your content goes here -->
+    <!--
+    Navigation bar generated with help of ChatGPT4-o
+    Prompt: "now give me a simple nav bar that I can 
+    put on the top of my website, going from left to right"
+    Response: Navigation bar code down below
+    -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li class="icon"><a href="#"><img src="ball-of-basketball.png" /></a></li>
+        </ul>
+    </nav>
+
+    <style>
+        nav {
+            background-color: #153fd8;
+            padding: 0.5rem;
+        }
+
+        .navbar {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            margin-right: 1.5rem;
+        }
+
+        .navbar li.icon {
+            margin-left: auto;
+            margin-right: 0;
+
+
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            display: flex;
+            align-items: flex-start;
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+
+        footer {
+            background-color: #153fd8;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        table.resume {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+
+        table.resume th {
+            width: 25%;
+            text-align: left;
+            vertical-align: top;
+            padding: 12px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+
+        table.resume td {
+            width: 75%;
+            padding: 12px;
+            border: 1px solid #ccc;
+        }
+
+        h3 {
+            margin-bottom: 4px;
+        }
+
+        ul {
+            margin-top: 4px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        footer img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+    <!--
+    Resume table generated with help of ChatGPT5-o
+    Prompt: "Turn this resume into a table for a resume page on a website"
+    Response: Resume table code down below
+    --> <a href="submission/views/filename.pdf" target="_blank" download="filename.pdf">
+        <button>Download PDF</button>
+    </a>
+    <table class="resume">
+        <tr>
+            <th>Objective</th>
+            <td>
+                Undergraduate student at the University of Colorado Boulder, working towards a Bachelor of Science in
+                Computer Science,
+                seeking part-time roles in software engineering, software development, data, IT, coding, or programming.
+            </td>
+        </tr>
+
+        <tr>
+            <th>Education</th>
+            <td>
+                <p><strong>Bachelor of Computer Science</strong>, University of Colorado Boulder (Expected May 2028)</p>
+                <p><strong>High School Diploma</strong>, Cherokee Trail High School (2020–2024)</p>
+                <p><em>Relevant Coursework:</em> Algebra, Geometry, Government, Solidworks, Computer Science, Python,
+                    Java, JavaScript</p>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Skills</th>
+            <td>
+                <p><strong>Technical Skills:</strong> Coding, Programming, Python, C++, Java, IT/Information Technology,
+                    Engineering,
+                    CompTIA ITF+ Certification, Data Structures, Git/Github, Algorithms, Microsoft 365, Outlook,
+                    Microsoft Teams,
+                    Windows, Excel, Zoom</p>
+                <p><strong>Soft Skills:</strong> Teamwork, Communication, Flexible, Adaptive, Creative, Critical
+                    Thinker, Collaboration</p>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Experience</th>
+            <td>
+                <h3>STEM Intern, Project: Return to Work (R2W) — June 2025 – Present</h3>
+                <ul>
+                    <li>Collaborated with cross-functional teams using Microsoft Teams, Outlook, Word, and Excel to
+                        support project coordination and documentation.</li>
+                    <li>Contributed to boosting social media engagement by helping with content strategies that
+                        increased visibility and views.</li>
+                    <li>Demonstrated strong interpersonal and collaboration skills through team-based initiatives and
+                        regular communication with stakeholders.</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Projects</th>
+            <td>
+                <p><strong>The Lion King (C++)</strong> — Board game inspired by the Disney production, using classes,
+                    arrays, vectors, files, and randomness to create an engaging gameplay experience while showcasing
+                    core programming concepts.</p>
+                <p><strong>Fall Detector App (Python)</strong> — Helped develop a fall detection app through the CABPES
+                    JETS Program (Spring 2023). Detects falls using acceleration thresholds and alerts emergency
+                    services, designed to aid elderly and disabled individuals.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Extra-Curricular Activities</th>
+            <td>
+                <ul>
+                    <li><strong>Volunteering:</strong> Actively engaged with Youth Roots and church outreach programs,
+                        helping feed the homeless and support local shelters and food banks.</li>
+                    <li><strong>Sports:</strong> Passionate about basketball and football; regular player emphasizing
+                        teamwork, discipline, and perseverance.</li>
+                    <li><strong>Video Games:</strong> Inspired my interest in computer science; developed communication,
+                        strategy, and collaboration skills through multiplayer gaming.</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Leadership</th>
+            <td>
+                <p><strong>Church Leadership – Jubilee Evangelical Church, Aurora, CO:</strong> Taught Bible lessons to
+                    children (ages 3–7), created engaging spiritual education sessions, and organized outreach events
+                    like feeding the homeless and donating to shelters. Built leadership, empathy, and integrity through
+                    service.</p>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/nathan-megersa-572485308/">
+            <img src="linkedin.png" alt="LinkedIn">
+        </a>
+    </footer>
+    <div></div>
+</body>
+<footer>
+    <li class="icon"><a href="https://www.linkedin.com/in/nathan-megersa-572485308/"><img src="linkedin.png" /></a></li>
+</footer>
+
+</html>

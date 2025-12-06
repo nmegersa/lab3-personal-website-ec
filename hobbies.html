@@ -1,0 +1,155 @@
+<!--
+ Generated with help of ChatGPT-4o
+ Prompt: "Give me a barebones HTML structure for my 
+ personal website without adding any additional sections"
+Response: code down below
+-->
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nathan Megersa - Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+  <!-- Your content goes here -->
+   <!--
+    Navigation bar generated with help of ChatGPT4-o
+    Prompt: "now give me a simple nav bar that I can 
+    put on the top of my website, going from left to right"
+    Response: Navigation bar code down below
+    -->
+    <nav>
+  <ul class="navbar">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li class="icon"><a href="#"><img src="ball-of-basketball.png"/></a></li>
+  </ul>
+</nav>
+<style>
+
+  nav {
+    background-color: #153fd8;
+    padding: 0.5rem;
+  }
+
+  .navbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar li {
+    margin-right: 1.5rem;
+  }
+
+  .navbar li.icon {
+    margin-left: auto;
+    margin-right: 0;
+    
+
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+.content {
+  display: flex;
+  align-items: flex-start; 
+  max-width: 600px;        
+  margin: 2rem auto;  
+}
+
+footer {
+    background-color: #153fd8;
+    color: white;
+    padding: 15px;
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden; 
+  font-family: sans-serif; 
+}
+
+.card-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0; 
+}
+
+main {
+  flex-grow: 1; 
+}
+
+</style>
+
+  <div class="card-container">
+    <div class="card">
+        <img src="volunteer.png">
+        <h1>Volunteering</h1>
+        <p>I am passionate about giving back to the community and have actively participated in
+        organizations such as Youth Roots, as well as annual outreach efforts with my church’s youth group to feed
+        the homeless in Denver and support local food banks and shelters. These experiences have deepened my
+        sense of empathy and strengthened my commitment to service and community support.</p>
+    </div>
+    <div class="card">
+        <img src="sports.png">
+        <h1>Sports</h1>
+        <p>Sports have been a lifelong interest of mine, both as a player and as a fan. I enjoy watching
+        basketball and football and play basketball regularly a few times a week to stay active. Engaging in sports
+        has helped me develop discipline, teamwork, and a strong sense of perseverance, traits that I carry into my
+        academic and professional life.</p>
+    </div>
+    <div class="card">
+        <img src="game-console.png">
+        <h1>Games/Video Games</h1>
+        <p>
+            Gaming has not only been a source of enjoyment and stress relief, but also a key influence in
+            my decision to pursue a degree in computer science. Through multiplayer gaming, I have developed valuable
+            communication, collaboration, and strategic thinking skills that continue to support my growth as a student
+            and future professional.
+        </p>
+    </div>
+</div>
+</body>
+
+<div>
+    <footer>
+    <li class="icon"><a href="https://www.linkedin.com/in/nathan-megersa-572485308/"><img src="linkedin.png"/></a></li>
+</footer>
+</div>
+</html>

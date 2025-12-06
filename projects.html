@@ -1,0 +1,128 @@
+<!--
+ Generated with help of ChatGPT-4o
+ Prompt: "Give me a barebones HTML structure for my 
+ personal website without adding any additional sections"
+Response: code down below
+-->
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nathan Megersa - Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+  <!-- Your content goes here -->
+   <!--
+    Navigation bar generated with help of ChatGPT4-o
+    Prompt: "now give me a simple nav bar that I can 
+    put on the top of my website, going from left to right"
+    Response: Navigation bar code down below
+    -->
+    <nav>
+  <ul class="navbar">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li class="icon"><a href="#"><img src="ball-of-basketball.png"/></a></li>
+  </ul>
+</nav>
+
+  <style>
+    nav {
+    background-color: #153fd8;
+    padding: 0.5rem;
+  }
+
+  .navbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar li {
+    margin-right: 1.5rem;
+  }
+
+  .navbar li.icon {
+    margin-left: auto;
+    margin-right: 0;
+    
+
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+.content {
+  display: flex;
+  align-items: flex-start; 
+  max-width: 600px;        
+  margin: 2rem auto;  
+}
+
+footer {
+    background-color: #153fd8;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+  </style>
+<!--
+   Accordion style drop down created with help of Google Gemini
+   Prompt: how to do accordion style html
+   Response: code down below
+    -->
+<details>
+    <img src="courage.png">
+  <summary>The Lion King</summary>
+  <p>Board game based off the Disney production ”The Lion King” in C++. Use elements of
+classes, arrays, vectors, files, randomness, etc. to come together and create a simple and fun game to play, while
+showcasing fundamental programming concepts.</p>
+</details>
+
+<details>
+    <img src="slide.png">
+  <summary>Fall Detector</summary>
+  <p>Helped develop a Python-based fall detection app through the CABPES JETS Program
+in Spring 2023. The app detects falls and, if the impact surpasses a set threshold, automatically alerts emergency
+services. Helpful for the elderly and disabled.</p>
+</details>
+
+<details>
+    <img src="dark.png">
+  <summary>Dungeon Game</summary>
+  <p>Created a game using C++ where a player could traverse through different 
+    dungeons, collecting different weapons and items of different levels throughout.
+    Utilized data strucutres like hash tables, linked lists, etc., while also
+    using traversal methods like Dijkstras algorithim as well.
+  </p>
+</details>
+
+
+</body>
+<footer>
+    <li class="icon"><a href="https://www.linkedin.com/in/nathan-megersa-572485308/"><img src="linkedin.png"/></a></li>
+</footer>
+</html>
